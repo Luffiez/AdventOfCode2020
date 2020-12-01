@@ -1,4 +1,5 @@
 My solutions to this years [Advent of Code](https://adventofcode.com/2020), written in Python.
+By Erik Rodriguez
 
 - [x] Day 1
 - [ ] Day 2
@@ -25,5 +26,3 @@ My solutions to this years [Advent of Code](https://adventofcode.com/2020), writ
 - [ ] Day 23
 - [ ] Day 24
 - [ ] Day 25
-
-By Erik Rodriguez
