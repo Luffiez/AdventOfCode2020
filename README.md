@@ -1,4 +1,5 @@
 My solutions to this years [Advent of Code](https://adventofcode.com/2020), written in Python.
+
 By Erik Rodriguez
 
 - [x] [Day 1](https://github.com/Luffiez/AdventOfCode2020/tree/main/PythonApplication1/Day_1)
