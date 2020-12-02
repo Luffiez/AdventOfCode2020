@@ -21,9 +21,9 @@ class Password(NamedTuple):
 # Format recieved from input-file: [1-4 n: nnnn]
 # Split the input based on " ", "-" and ":", then create a new Password and populate the values.
 def split(password):
-    x = password.split(" ")     # [1-4, n:, nnnn]
-    values = x[0].split("-")    # [1, 4]
-    letter = x[1].split(":")    # [n]
+    x = password.split(" ")     # x = [1-4, n:, nnnn]
+    values = x[0].split("-")    # values = [1, 4]
+    letter = x[1].split(":")    # letter = [n]
     pwd = Password(values[0], values[1], letter[0], x[2]) # x[2] = 'nnnn'
     return pwd
 
