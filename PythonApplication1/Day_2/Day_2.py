@@ -21,10 +21,10 @@ class Password(NamedTuple):
 # Format recieved from input-file: [1-4 n: nnnn]
 # Split the input based on " ", "-" and ":", then create a new Password and populate the values.
 def split(password):
-    x = password.split(" ")
-    values = x[0].split("-")
-    letter = x[1].split(":")
-    pwd = Password(values[0], values[1], letter[0], x[2])
+    x = password.split(" ")     # [1-4, n:, nnnn]
+    values = x[0].split("-")    # [1, 4]
+    letter = x[1].split(":")    # [n]
+    pwd = Password(values[0], values[1], letter[0], x[2]) # x[2] = 'nnnn'
     return pwd
 
 # loop-through all characters of the passwords value, if it equals the key-character, increase the letters-counter
