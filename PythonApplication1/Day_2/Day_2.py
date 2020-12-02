@@ -19,7 +19,7 @@ class Password(NamedTuple):
     value: str
 
 # Format recieved from input-file: [1-4 n: nnnn]
-# Split the input based on " ", "-" and ":", then create a new NamedTuple and populate the values.
+# Split the input based on " ", "-" and ":", then create a new Password and populate the values.
 def split(password):
     x = password.split(" ")
     values = x[0].split("-")
