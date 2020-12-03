@@ -4,7 +4,7 @@ By Erik Rodriguez
 
 - [Day 1](https://github.com/Luffiez/AdventOfCode2020/tree/main/PythonApplication1/Day_1) :star: :star:
 - [Day 2](https://github.com/Luffiez/AdventOfCode2020/tree/main/PythonApplication1/Day_2) :star: :star:
-- [Day 3](https://github.com/Luffiez/AdventOfCode2020/tree/main/PythonApplication1/Day_3)
+- [Day 3](https://github.com/Luffiez/AdventOfCode2020/tree/main/PythonApplication1/Day_3) :star: :star:
 - [Day 4](https://github.com/Luffiez/AdventOfCode2020/tree/main/PythonApplication1/Day_4)
 - [Day 5](https://github.com/Luffiez/AdventOfCode2020/tree/main/PythonApplication1/Day_5)
 - [Day 6](https://github.com/Luffiez/AdventOfCode2020/tree/main/PythonApplication1/Day_6)
