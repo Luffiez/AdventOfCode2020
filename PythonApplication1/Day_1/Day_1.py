@@ -28,7 +28,7 @@ def check(list):
     else:
         return False
 
-# NOTE: This is the "easy" way, which is very unomptimized! Will look at better solutions later
+# NOTE: This is the "easy" way, which is very unomptimized! might look at better solutions later
 print("######        PART 1       ######")
 for x in entries:
     for y in entries:
