@@ -5,7 +5,7 @@
     <ProjectGuid>4b166dc6-a2f4-4bb1-9f93-c9abb5b00a07</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Day_4\Day_4.py</StartupFile>
+    <StartupFile>Day_5\Day_5.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,18 +23,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Day_1\Day_1.py" />
+    <Compile Include="Day_5\Day_5.py" />
     <Compile Include="Day_4\Day_4.py" />
     <Compile Include="Day_3\Day_3.py" />
     <Compile Include="Day_2\Day_2.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Day_1\" />
+    <Folder Include="Day_5\" />
     <Folder Include="Day_4\" />
     <Folder Include="Day_3\" />
     <Folder Include="Day_2\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Day_1\input.txt" />
+    <Content Include="Day_5\input.txt" />
     <Content Include="Day_4\input.txt" />
     <Content Include="Day_3\input.txt" />
     <Content Include="Day_2\input.txt" />

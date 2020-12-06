@@ -1,7 +1,7 @@
 from typing import NamedTuple
 
 print("###### ADVENT OF CODE 2020 ######")
-print("######        DAY 3        ######\n")
+print("######        DAY 4        ######\n")
 
 # Load input.txt into a list
 with open('Day_4\input.txt', 'r') as f:
