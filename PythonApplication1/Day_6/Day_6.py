@@ -10,7 +10,6 @@ questions = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n
 def getYesInGroup(group):
     numberOfYes = 0
     members = group.split("\n")
-    
     for char in questions:
         answers = 0
         for member in members:
@@ -19,7 +18,7 @@ def getYesInGroup(group):
                 continue
         if(answers == len(members)):
             numberOfYes += 1
-    print(members, "=", numberOfYes)
+    print(numberOfYes, "=", members)
     return numberOfYes
 
 totalSum = 0
